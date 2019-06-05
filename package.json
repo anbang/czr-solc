@@ -11,16 +11,6 @@
   "_integrity": "sha512-+RJfa5zRpWBm8DhEiEScIzEzPHWppwHSp/2yV9qvM/lNr0Y8cCv2mcNiXy+R6SSV0OoskhPEfe6Fwa4QQEgxlg==",
   "_location": "/solc",
   "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "solc@0.5.1",
-    "name": "solc",
-    "escapedName": "solc",
-    "rawSpec": "0.5.1",
-    "saveSpec": null,
-    "fetchSpec": "0.5.1"
-  },
   "_requiredBy": [
     "/"
   ],
@@ -32,9 +22,6 @@
   },
   "bin": {
     "solcjs": "solcjs"
-  },
-  "bugs": {
-    "url": "https://github.com/ethereum/solc-js/issues"
   },
   "dependencies": {
     "command-exists": "^1.2.8",
@@ -65,14 +52,9 @@
     "wrapper.js"
   ],
   "homepage": "https://github.com/ethereum/solc-js#readme",
-  "keywords": [
-    "ethereum",
-    "solidity",
-    "compiler"
-  ],
   "license": "MIT",
   "main": "index.js",
-  "name": "solc",
+  "name": "czr-solc",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ethereum/solc-js.git"
