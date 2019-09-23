@@ -63,7 +63,6 @@
     "coverage": "istanbul cover node_modules/tape/bin/tape ./test/index.js",
     "coveralls": "npm run coverage && coveralls <coverage/lcov.info",
     "lint": "semistandard",
-    "prepublish": "node downloadCurrentVersion.js && node verifyVersion.js",
     "pretest": "npm run lint",
     "test": "tape ./test/index.js"
   },
